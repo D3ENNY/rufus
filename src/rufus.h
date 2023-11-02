@@ -686,7 +686,6 @@ extern INT_PTR CALLBACK UpdateCallback(HWND hDlg, UINT message, WPARAM wParam, L
 extern void SetFidoCheck(void);
 extern BOOL SetUpdateCheck(void);
 extern BOOL CheckForUpdates(BOOL force);
-extern void DownloadNewVersion(void);
 extern BOOL DownloadISO(void);
 extern BOOL IsDownloadable(const char* url);
 extern BOOL IsShown(HWND hDlg);

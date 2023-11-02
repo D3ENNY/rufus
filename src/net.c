@@ -694,7 +694,6 @@ out:
 		while ((!force_update_check) && (op_in_progress || (dialog_showing > 0))) {
 			Sleep(15000);
 		}
-		DownloadNewVersion();
 	} else if (force_update_check) {
 		PostMessage(hMainDialog, UM_NO_UPDATE, 0, 0);
 	}
